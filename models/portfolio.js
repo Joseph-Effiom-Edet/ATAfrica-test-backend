@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+//MONGOOSE SCHEMA THAT WILL BE USED TO INTERACT WITH THE PORTFOLIO COLLECTION IN THE DATABASE.
 const PortfolioSchema = new mongoose.Schema({
   tolerance: { type: Number },
   nigerianStocks: { type: Number },
